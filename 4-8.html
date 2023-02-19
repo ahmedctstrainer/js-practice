@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>IHUB Talent</title>
+        <script type="text/javascript">
+			
+			function addition(a=10,b=20)// a,b are default values if its not defined then it will consider
+			{
+                document.write("The value a="+a+"<br>");
+                document.write("The value b="+b+"<br>");
+                var c=a+b;
+                return c;
+
+			}
+
+            
+var output= addition();// a,b are not provided
+
+ output= addition(30,40);// a,b are 30,40  provided
+document.write(output);
+
+
+
+function factorial(n){
+            
+			var fact=1;
+			var i=n;
+			while(i>=1) 
+			{
+				fact*=i;
+               // document.writeln("fact*"+i+ "="+fact+"<br>");
+               // document.writeln("fact ="+fact);
+
+		 
+				i--;
+			}
+
+            return fact;
+
+        }
+            
+   output=    factorial(6);
+
+   document.write("The factorial is "+output);
+
+			//call
+			//f1();	
+		</script>
+	</head>
+	<body>
+
+
+		
+	</body>
+</html>

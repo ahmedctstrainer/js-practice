@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html>
+        <head>
+         	<title>IHUB Talent</title> 
+        </head>
+        <body>
+        	
+        	<!-- result here -->
+        	Date:<span id="result"></span>	
+
+        	<script type="text/javascript">
+        		var date=new Date();
+
+        		var d=date.getDate();
+        		var m=date.getMonth()+1;
+        		var y=date.getFullYear();
+                 var time=   date.getTime();
+                   date.getHours();
+                   date.getMinutes();
+                   date.getSeconds();
+                 var day=  date.getDay();
+
+              var   date1=new Date();
+                 date1.setDate(15);
+                 date1.setMonth(7);
+                 date1.setFullYear(1947);
+
+                 var t=date.getTime()-date1.getTime();
+                 
+console.log(t);
+
+
+console.log(date);
+
+
+        	document.getElementById('result').innerHTML=d+"/"+m+"/"+y;
+            document.getElementById('result').innerHTML+="<br>"+time;
+            document.getElementById('result').innerHTML+="<br>"+day;
+            
+            
+        	</script>
+
+        </body>
+</html>

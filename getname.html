@@ -1,0 +1,64 @@
+<html>
+	<head>
+		<title>IHUB Talent</title>
+		<script type="text/javascript">
+		// code for adding onclick event with JS	
+        document.getElementById('f1').onclick=function(){
+alert('f1 function');
+        }
+
+
+
+            function f1()
+			{
+				var name=document.myform.username.value;
+                var password=document.myform.password.value;
+
+
+                
+				alert("Username:" +name +"password:" +password);
+          //  alert(document.body);
+           // console.log(document.body.myform)
+
+			}
+
+
+            function f2()
+			{
+				
+				var name1=document.myform2.username.value;
+                var password1=document.myform2.password.value;
+
+                
+				alert("Username:" +name1 +"password:" +password1);
+          //  alert(document.body);
+           // console.log(document.body.myform)
+
+
+			}
+		
+		</script>
+		
+	</head>
+	<body>
+		
+		<form  method="post" action="#" name="myform">
+			Name : <input type="text" name="username"/> <br>
+            password : <input type="password" name="password"/> <br>
+            	
+			<button id="f1" >Login</button>
+            
+		</form>
+			
+
+		<form  method="post" action="#" name="myform2">
+			Name : <input type="text" name="username"/> <br>
+            password : <input type="password" name="password"/> <br>
+            	
+			<button onclick="f2()">Register</button>
+		</form>
+			
+
+
+	</body>
+</html>

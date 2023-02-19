@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>IHUB Talent</title>
+        <script type="text/javascript">
+            function f1()
+            {
+
+             var len=document.getElementsByName('t1').length;  
+             var tagname=document.getElementsByName('t1')[0].tagName;
+
+             
+             console.log("Tag name of t1  "+tagname);
+             console.log("Length of t1  "+len);
+        var name=document.getElementsByName('t1')[0].value;
+          // document.writeln(name);
+       var name2=document.getElementsByName('t1')[1].value;
+        //document.writeln(name2);
+console.log("From get element by name "+name+" "+name2);
+
+document.getElementById('print').innerHTML="From get element by name "+name+" "+name2;
+
+
+
+            
+        var name3=document.getElementById('t1').value;
+          // document.writeln(name3);
+        var name4=document.getElementById('t2').value;
+       // document.writeln(name4);
+
+        console.log("From get element by Id "+name3+" "+name4);
+
+
+            }
+
+        </script>
+	</head>
+	<body>
+			Name: <input type="text" id="t1" name="t1"/> <br>
+			
+            FName: <input type="text" id="t2" name="t1"/> <br>
+			<button onclick="f1()">click</button>
+            <p id="print">result</p>
+
+
+	</body>
+</html>

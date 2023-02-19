@@ -1,0 +1,255 @@
+
+				
+				 
+				 
+				 
+				 
+				 
+				 
+				 
+				 
+				 
+				 
+				 
+				 
+				 
+				 
+				 
+				 
+				 
+				 
+				 
+				 
+				 
+				 
+				 
+				 
+				 
+				 
+				 17.355027270230377, 78.45981516681839
+				 
+				 
+				 
+				 
+			code---> 10 sec---> entering the username and passwords..	 
+				 
+		setTimeout(function,time)		 
+				 
+				 
+timeout---> 10 task...				 
+				 
+code---want to execute on some time
+OTP completion process should 60 seconds
+
+send otp---> 
+validate otp---30sec validity
+				 
+			
+irctc app --->google pay. or .Phone pay----->entering the phone number...
+send request ton google pay---> 5min
+irctc 5min---->
+
+setTimeout
+clearTimeout
+
+setInterval()
+clearInterval()
+
+
+
+id----> id
+name -->  validation
+
+
+
+
+--------------------------------------------------------------------
+
+Create a function which will generate 6 digit random number. as OTP.
+setimeout for 15 seconds.
+display an alert with OTP written on alert.
+
+--------------------------------------------------------------------
+
+Try-->Every 5 second I want to re-load my webpage automatically.
+
+change to 15 min...'
+
+
+-------------------------------------------
+2 buttons 
+1 setInterval---> keep on printing the natural numbers one by one
+2. clearInterval---> stop printing
+
+---------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			
+				 
+				 
+				 
+				 
+				 
+				 
+				 
+				 
+				 
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				 
+				 
+				 
+				 
+				 
+				 
+				 
+				 
+				 
+				 
+				 
+				 
+				 
+				 
+				 
+				 
+				 
+				 
+				 
+				 
+				 
+				 
+				 
+				 
+				 
+				 
+				 17.355027270230377, 78.45981516681839
+				 
+				 
+				 
+				 
+			code---> 10 sec---> entering the username and passwords..	 
+				 
+		setTimeout(function,time)		 
+				 
+				 
+timeout---> 10 task...				 
+				 
+code---want to execute on some time
+OTP completion process should 60 seconds
+
+send otp---> 
+validate otp---30sec validity
+				 
+			
+irctc app --->google pay. or .Phone pay----->entering the phone number...
+send request ton google pay---> 5min
+irctc 5min---->
+
+setTimeout
+clearTimeout
+
+setInterval()
+clearInterval()
+
+
+
+id----> id
+name -->  validation
+
+
+
+
+--------------------------------------------------------------------
+
+Create a function which will generate 6 digit random number. as OTP.
+setimeout for 15 seconds.
+display an alert with OTP written on alert.
+
+--------------------------------------------------------------------
+
+Try-->Every 5 second I want to re-load my webpage automatically.
+
+change to 15 min...'
+
+
+-------------------------------------------
+2 buttons 
+1 setInterval---> keep on printing the natural numbers one by one
+2. clearInterval---> stop printing
+
+---------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			
+				 
+				 
+				 
+				 
+				 
+				 
+				 
+				 
+				 
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				

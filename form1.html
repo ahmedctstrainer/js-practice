@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+<html>
+        <head>
+         	<title>IHUB Talent</title>
+        </head>
+        <body>
+        	<script>
+        	function f1()
+        	{
+        		var target;
+        		if(document.myform.t1.value.length>5)
+        		{
+        			target="strong";
+        		}
+        		else
+        		{
+        			target="poor";
+        		}
+        		document.getElementById('result').innerText=target;
+        	}
+        	</script>
+
+        	<form action="#" name="myform">
+       <input type="text" name="t1" onkeyup="f1()" />Strength:<span id="result"></span>
+        	</form>
+        </body>
+</html>
+

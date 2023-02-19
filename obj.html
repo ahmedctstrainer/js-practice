@@ -1,0 +1,89 @@
+<script>
+
+var name=prompt("Enter name");
+var add=prompt("Enter address");
+var mob=prompt("Enter mobile");
+var age=prompt("Enter age");
+
+emp2={fullname:name, address:add ,mobile:mob ,agelimit:age}
+
+console.log(emp2);
+
+//lieteral way
+emp={name:"Ahmed",address:"HYD TG",mobile:"1234567890",age:31,
+job:function(){
+document.write("doing job <br> ");
+ } ,
+drive:function(){
+    document.write("doing driving  <br>");
+
+},
+train:function(){
+    document.write("doing training <br>");
+}
+};
+
+//object way
+emp =new Object();
+emp.ename="raju"
+emp.address="Ch TN"
+emp.mobile=1234
+emp.age=55
+emp.job=function(){
+document.write("doing job <br> ");
+ };
+
+ emp.drive=function(){
+    document.write("doing driving  <br>");
+
+};
+emp .train=function(){
+    document.write("doing training <br>");
+};
+
+
+document.write(emp.name+"<br>");
+document.write(emp.address+"<br>");
+document.write(emp.mobile+"<br>");
+document.write(emp.age+"<br>");
+// calling functions from Object class
+emp.job();
+emp.drive();
+emp.train();
+
+
+console.log(emp)
+
+
+function f1(){
+    document.write("<br>");
+
+}
+console.log(f1)
+
+console.log(f1.prototype)
+let  item = {
+        itemname:"Camera",
+        ratings:4.5,
+        discountcost:22000,
+        beforediscount:25000,
+        discount:"12%",
+        availableoffers:"Card offers",
+        warranty:"2 years",
+        DeliveryPin:[5000001,400002,500004],
+        DeliveryEstimation:"16 Jan, Monday",
+        DeliveryCost:"40",
+        Highlights:"50MP",
+        Seller:"Canon",
+
+
+      };
+
+
+
+
+
+
+
+
+</script>

@@ -1,0 +1,1137 @@
+    
+
+                Translater(who knows english/arabic)
+                    English        Arabic
+Communicating ----> person1   to  person2
+              Language---->
+			  grammer
+			  letter
+			  words
+			  sentences
+			  paragraph
+			  
+			  
+  I want to talk to Computer (Binary O's,1's)
+  syntax and semantic
+  program
+  
+Instructions---piece of code ---which does some task
+Program
+
+
+Me   ---> Translater--->      Computer
+English   >>>Translater----> Computer
+
+O's and 1's language called Low level language
+English Lnguage is high level language
+Translater----->Compiler
+                Interpretter
+
+Compiler---> translater--
+               whole code and convert to low level
+			   single shot
+			   
+Prepare a coffe--10 line
+           			   
+	Interpretter---line by line convertion
+	
+	1 line--convert2
+	2 line---
+	3 line---stopped
+	
+                 	
+	1 line--
+	2 line---
+	3 line---
+	
+	
+	Programming languages
+	C prpgramming
+	Java programming
+	C#.....
+	
+	Scripting programming---Java script,VB..etc
+	Loosely coupled--any specific data type
+	
+	Non scripting Programming---C,Java,C#
+	Tightly coupled---data types present every types
+	
+	Assemly language---> 0's and 1's
+	
+	Move A  20
+	Move B  20
+	add
+	
+	C- invented for the same
+	English like language
+	
+	
+	ahmed---AHMED
+	
+	Java script-----Html css code
+	we are writing server side programs
+	we embedded programming
+	You can create app with Javacript
+	
+	
+	MERN---> Mongo Express.js React.js Node.js
+	MEAN s
+	
+	
+	Document object model
+	Objects
+	 history
+	 bookmark
+	 incognito
+	 session
+	 cookies
+	 document'form
+	 table
+	 
+	 HOw to create own object
+	 Own information
+	 Used in app
+	 
+	 
+	 
+	 
+	 addition of number
+	 20---to hold value----
+	 variables named memory location
+	 which has some value store
+	 20
+	 40
+	 
+	 
+	 var a; declaration
+	 a=10;   assignment of value 10 to a
+	 
+	 var a=10;//declaration and assignemtn
+	 
+	 Do the search for Javascript capability? 
+	 language and translator
+	 introduction to JS and advantages
+	 variables in javascript
+	 document.write
+	 concat the variable with string
+	 internal and external javascript
+	 Object oriented programming
+	   
+	 
+Do the search for Javascript(Object based) capability?
+
+control operations and upgrade the server
+Mobile apps/ web app used javascript
+Game development
+mind craft game in JS
+1.
+add/remove/update on html
+Rich interfaces  react
+Complex tasks with performance oriented node.js express.js  react.(UI)
+
+2.Server side apps  animations also
+IOT products
+smart projects
+3.intraction on html
+show/hide events
+slider on carousal..timer..
+play audio video
+drop down...web/ mobile app
+4.web app
+platform independent
+all modern browser support
+validation on user input
+reduce time for development time
+
+5. scripting language
+develope dynamix websites
+
+6. diff function on websites
+slider zoom animations
+gmae
+smart watch
+mainly for web development
+also support server side 
+
+7.Live script
+ECMA standard
+popular
+
+
+8.
+Java--compiler + interpreter----> heavy weight applications..Multi threaded app...Enterprise applications
+Javscript---interpreter
+Light weight..high performance..less time for dev....
+
+---------------------------------------------------------------------------
+
+
+WIFI---> local - global to building
+
+limited to your room local to you
+
+Local---room people can used
+Global---any one can use in building
+
+Function----> Host a party--->
+
+1. Choose the palac
+2. Buy items and do decoration 
+4. invitation to family / friends----given or not---true/false
+5. Prepare food
+6. Host a party 
+
+inputs---> Invitation,decoration,food items,Chef 
+output----> Response to the person,feedback
+
+
+
+Function----> Do some task
+              input/output
+			  
+with input
+with output
+with input and output
+with no input no output	
+
+Input----paramters of a functions
+output-----return type of a function
+1.
+function name_of_function( input){
+return ouput;
+}
+
+2.
+function name_of_function(){
+}
+
+3.
+function name_of_function(input){
+
+}
+4.
+function name_of_function(){
+//task---values---generated --outcome
+// share to outside world
+
+//return output;
+}
+
+return-----Output of a function as input another function
+           Share the output of a function to another function
+....		   
+Function 1--read user input
+Function 2--in PDF
+Function 3-- download the pdf 
+
+
+1
+49
+50---> error
+
+100
+
+f2---has error
+line 50 error---has errro
+
+locallly local variables are strong
+
+Local variable
+Global variable
+Without param without return type
+
+
+
+
+
+
+
+
+
+Last Class::
+functions --> Return type,Paramters
+With param without param
+input/output
+no input/ no output
+input without output
+no input /with output
+
+function nameOfFunction(input params){
+
+return outputparam;
+
+}
+
+
+Local Variable inside the func
+Global variable outside of func
+
+Window
+    dococmuent
+	
+	var a;
+	   number,float ,date,time,regex...null,"" "string"
+	   a=34;  number type   a= new Number(34)
+	   a=true///boolean value true  a= new Boolean(true)
+	   a=false // boolean value false  a=new Boolean(false)
+	   
+	   a=new Date();
+	   a=new Time();
+	   a=34.56f;
+	   a="my name is khan"// string type variable  a=new String("my name is khan")
+	   a= new Array(1,2,3,4,5,6);
+	   a=new Regex("/^[a-z][A-Z]$/");---> pattern 
+	   
+	   
+	   
+	   
+	   
+	   
+	   a=undefined
+	   a=null
+	   
+	   var a=10; Assignment operaotor
+	   
+	   var b=20;
+	   var c=a+b;// a,b,c operands
+	   a+b---do addition
+	   c=a+b--assign result to C
+	    a=10;
+		       8421===
+			   
+			   1 byte--8 bit----->      00001000   =8
+			                                  0000 0100=4
+			   
+			    &  |    ^------>    &  anding of bits
+				                    |   oring of bits         
+									^   Xor--odd function
+									
+	00								1001
+									1101  &                       
+									===========
+									1 0 01---Number
+									
+									1 1 0 1    |
+									
+									
+								
+								0000 1101====>   0+0+0+0           2(3)*1 +  2(2)*1 +  2(1)*0 +2(0)*1=13
+								----->
+								      0000   0110   removed 1
+									  
+								         
+								a>>1--right 
+								a<<1--lefft
+								
+								0    00011010
+								
+								age==18 || age>18
+								age>=18
+								
+								age==18  || age<18
+
+								age<=18
+								
+								
+								
+								
+								
+								
+								
+								
+								
+									
+                                   				
+			   
+			   
+			   1 bit  ===0 or 1
+			   
+		We  need to link voter id and aadhaar card--->
+		if link---can voter
+        not link---- cannot vote	
+          
+		  
+		  condition voter id prsent
+		            aadhaar card present
+					linking should be done----And operator
+					
+					     vote    
+						 other wise you cannot vote
+And table                      OR table   
+
+T    T      True              true
+T    F      false             true
+F    T      false             true
+F    F      false             false
+
+Voter  &&   Adhaar   && linking-----> can vote  all 3 three should be there
+
+Voter  && adhaar  || linking--------------  can vote
+
+
+
+a=10====> 	 a++  ----> 11 post inc----assign then increment
+a=10-----> ++a----> pre inc-----> increment then asssign
+
+
+a=10---->  a--   -----> 9
+
+
+a=1 b=2 c=3 d=4.. 10 variables   ++   --  in loops	
+
+
+And: if any one expr false no need to check next expr as expr becomes false due to anding
+Or:  if any expr becomes true no need to check next expr as expr becomes true due to oring
+
+
+!true----> false
+!false----> true
+  
+  Shorhand arithmatic operator
+a=10   b=20;
+a=a+b;---> a+=b---> a=a+b
+a=a-b;----> a-=b  ---> a=a-b
+a=a*b;--->  a*=b  ----> a=a*b;
+
+var isInsuranceAvailable= (aadhaarNo ==0)?5000000:25000;
+retnery operator ,special operator,conditional operator
+
+
+a=10  b=20
+if(a>b){
+//a greater
+}else{
+
+//b greater
+}
+
+
+a=10  b=20  c=30
+
+b---> gearthen a and greater calculations
+a---> a greater then b and greater then calculations
+c---> greater the b , a
+
+
+to get remainder---> %
+
+n%2==0----> true===even number
+n%2!=0 ---> odd number
+
+
+Vowel--> a   e   i  o  u  
+consonant
+
+
+10>20
+10>=20
+
+
+var ch='f';
+
+in between value A   Z
+
+in between value a   zoom
+
+0   9---digit
+special
+
+
+                   1   2   3   4   5
+				   0   O           o
+				   
+				   
+				   Monday     
+				   Tuesday
+				   Wednesday
+				   Thurday
+				   Friday
+				   Saturday
+				   Sunday
+				   
+				   
+				   CTRl+A---select
+				   
+				   Ctrl+K Contrl+f
+				   
+				   
+				   
+				   
+				   3 variable---
+				   
+				   
+				   
+				   salary=1200000;
+				   age =59
+				   calculatedTax=0;
+				   isNew=true;//new
+				   isNew=false;old
+				   
+				   
+				   If(isNew
+				   
+				   
+				   
+				   
+				   400000-250000
+				   
+				   150000/-  * 0.05====> 4lakhs
+				   
+				   
+				   15lakhs--->
+				   
+				   112500 +  500000* 0.30===> tax
+				   -------------------------------------
+				   0--2.5lak
+				   2.5lak   5lakh
+				   5lak 10 lakh
+				   above 10laks
+				   
+				   
+				   11lakh
+				   
+				   112500 + 1lakh*0.30
+				   
+				   
+				   
+				   
+				   
+				   112500  +  1lakh * 0.30===tax
+				   
+				   input  output ..conditions ...
+				   
+				   
+				   --------------------------------------------------------
+				   
+				  Electricity Bill
+				   
+				   Readings
+				     1-100   calculate 2  rupees per reading
+					 101-200   calculate 3.5 rupees per reading
+					 201-300   calculate 5.5 rupees per reading
+					 301-400   calculate 7.5 rupees per reading
+					 above 400----> calculate 12 rupees per reading
+					 -------------------------------------------------
+				99--->	  99*2=198/-
+				102----> 100*2=200       2*3.5=7    207	
+				400---> 99*2+ 99*3.5  +99*5.5 + 99*7.5=
+				---------------------------------------------------------------
+				
+				without using loops print 1 to 10 numbers
+				
+				
+				initialization---1
+				condition---end point---untill <=10
+				inc/decrement---  +1
+				
+				for loop we know to when to start and end;
+				
+				 end point---   start point----read from file 1GB
+				 
+				 While, Do while--->read the files,to read big file
+				 untill end of the file
+				 
+				 untill end file or table  or data on disk
+				 
+				 
+				   5 3   7    9   2
+				 
+				 
+				 5
+				 1X2X3X4X5
+				 
+				 
+				 5---> 5   4   3   2   1
+				 
+				 3---> 3X  2  X  1==6
+				 
+				 4--->4X 3X  2  X  1==24
+				 
+				 
+				 balance=1000
+				 
+				 
+				 ATM--> insert card--> enter password---> enter amount  -5000/-
+				 insufficient balance message
+				 
+				 
+				 Google pay---> 1lakh---> to xyz--->  sent the amount
+				 ---> not reached---->
+				 
+				 google pay has the amount---> winthin 10 days
+				 
+				 do--while-> menu dispalying--->
+				 
+				 Switch ---->--->1 option
+				 
+				 ----------------------
+				 
+				 Login--> username/password---> if(username && password  exist)
+				 Logout----> destroy the details from the server
+				 registration
+				 display---> Everything ON ui ---->
+				 for loop//while -->
+				 
+				 ---------------------------
+				 
+				 same function but differ in params called as function overloading
+				 
+				 
+				 
+				 Class is like map
+				 Object like building
+				 
+				 ----------------------------------------
+				 function First{----> class
+				 
+				 age;// instance variable
+				 function doCry(){
+				 }
+	
+				 }
+				 
+				 
+				 class 1   class2    class 3...class 10
+				 
+				 4-5 age     5-6      6-7         .....
+				 count 100
+				 raju--->4
+				 ramu--->4.5
+				 shamu
+				 kamu
+				 
+				 age=4-5 attribute
+				 behavoiur..crying shouting etc..
+				 ----------------------------------
+				 
+				 class---> attributes + functions
+				 class is map
+				 Object follows class
+				 
+				 ------------------------
+				 
+				 JSON--> Javascript object notation
+				 {name:"ahmed",address:"HYD",phone:"124567890"  }
+				 
+				 Blue goggles....
+				 black goggle....
+				 
+				 Object()----> Object
+				 
+				 function(){}
+				 
+				 
+				 inherits from Object class -----> Prototypical inheritance
+				 
+				 -----------------------------------------------
+				 
+				 
+				 
+				 Desgin an object(json) for your Flipkart item;
+				 
+				 name
+				 price
+				 offer
+				 discount
+				 rating
+				 reviews
+				 special price
+				  deliversto
+				  
+				 function---> as class----> 
+				 ECMA---> ES6  ES5
+				 
+				 ES6-----> created class to create class----> function...
+				 
+				 emp={name:"abcd",age:34,phone:"1234567890"};
+				 emp.name
+				 emp.age
+				 emp.phone
+				 
+				 
+				 
+				 
+				 
+				 function doTask(){
+				 
+				 //local variable
+				 
+				 a,b,c;
+				 this.a// instance
+				 
+				 
+				 
+				 }
+				 
+				 
+				 5  4   1  3 2
+				 
+				 5  
+				 
+				 
+				 
+				 1  2   3  4  5
+				  
+				  5  4   3   2   1
+				 
+				 
+				 1 2 3 4 5
+				 5 4 3 2 1
+				 
+				 
+				 
+				 Ascending order 
+				 Descending order
+				 
+				 
+				 var a=10
+				 var ="ahmed"
+				 var dat="12 dec 2022 12:12:12"
+				 
+				 
+				 Flipkart item ...
+				 I need proper object of flipkart item...
+				 New on your facebook. For a post ...Facebook stores data.
+				 
+				New Movie----> Yahoo--->shared trailer-->
+				
+				URL
+				frinedlist' to whom shared
+				list like people
+				list comments people and message
+				-------------------------------------------
+				
+				Json object for this
+				
+				
+				
+				
+				
+				
+				
+				 
+				 
+				 
+				 
+				 
+				 
+				 
+				 
+				 
+				 
+				 
+				 
+				 
+				 
+				 
+				 
+				 
+				 
+				 
+				 
+				 
+				 
+				 
+				 
+				 
+				 
+				 17.355027270230377, 78.45981516681839
+				 
+				 
+				 
+				 
+			code---> 10 sec---> entering the username and passwords..	 
+				 
+		setTimeout(function,time)		 
+				 
+				 
+timeout---> 10 task...				 
+				 
+code---want to execute on some time
+OTP completion process should 60 seconds
+
+send otp---> 
+validate otp---30sec validity
+				 
+			
+irctc app --->google pay. or .Phone pay----->entering the phone number...
+send request ton google pay---> 5min
+irctc 5min---->
+
+setTimeout
+clearTimeout
+
+setInterval()
+clearInterval()
+
+
+
+id----> id
+name -->  validation
+
+
+
+
+--------------------------------------------------------------------
+
+Create a function which will generate 6 digit random number. as OTP.
+setimeout for 15 seconds.
+display an alert with OTP written on alert.
+
+--------------------------------------------------------------------
+
+Try-->Every 5 second I want to re-load my webpage automatically.
+
+change to 15 min...'
+
+
+-------------------------------------------
+2 buttons 
+1 setInterval---> keep on printing the natural numbers one by one
+2. clearInterval---> stop printing
+
+---------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			
+				 
+				 
+				 
+				 
+				 
+				 
+				 
+				 
+				 
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				if 
+				if else
+				switch
+				else if ladder
+				conditions && ||
+				shorhand arithmatic operators
+		
+
+		function for 5 times
+				
+				
+				Loop---->   count ?
+				    start   on sometime
+                    end	    on endtime	
+					-------------------------
+					initialization--from where to start
+					condition------untill repeating
+					inc/dec------update flag
+					------------------------
+					
+					1  2   3  4  5  6  7  8  9 10
+					  1   1  1                 1
+					  i++
+					  
+					  start-0       i++
+					  end 0n 10
+					  
+					  
+					  
+					
+					
+					
+					
+					
+					
+					
+
+
+					
+				
+				               
+				
+				
+					 
+					 
+					 
+
+					 
+					 
+					 
+					 
+					 
+					 
+					 
+					 
+					 
+				   
+				   
+				   
+				   
+				   
+				   
+				   
+				   
+				   
+				   
+				   
+				   
+				   
+				   
+				   
+				   
+				   
+				   
+				   old and new
+				   
+				   
+				   
+		
+				   Old 
+				   
+				   new regime
+				   
+				   
+				   1 12 500+ 30000--->
+				   11 lacs=====> 142500
+				   
+				   
+				   
+				   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+    main and (elec1 or elec2 or elect3)
+
+            main subjects should be pass
+			1 elective can be failed------> pass
+			
+			 main subjects pass
+			 all elective pass(Max marks elective consider)----pass
+			 
+			 main subject --any one failed--->
+			 all elective pass------------------failed
+			 
+
+			 
+			
+			
+			
+			
+          Engineering ---> exemption
+		                60 subjects--->open Electives---> failed
+						     failed---->
+							 
+							 they make it pass ---they remove elective for calculations
+							 
+			Drawing--subject failed---> you failed				 
+							 
+							 
+Design the calculator	.					
+
+-------------------------
+primitive and non primitive
+introduction to operators
+Arithmatic operaotors
+
+--------------------------
+
+						
+						
+						
+						
+		         
+
+
+
+
+
+		
+			   
+		
+	   
+	   
+
+
+
+
+
+
+
+
+
+  
+		   
+		   
+		   
+
+
+		  
+			  
+
+
+
+
+
+
+{
+local variables
+}
+
+Global variables
+{
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+			 
+              Language---->
+			  grammer-----Synatax and semantics
+			  letter -----> set of code  ; create 
+			  words
+			  sentences
+			  paragraph
+			  
+			  
+			  Syntax and semantics
+			  Variable,Methods(function)
+			  writing the instruction
+			 do printing
+			 do calculations
+			 Do decision making
+			 
+			 
+
+
+
+			 
+				
+				
+
+
+
+  
+			  
+			  
+			  
+			  
+			  

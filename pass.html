@@ -1,0 +1,36 @@
+
+
+
+<!doctype html> 
+<html> 
+  <head> 
+   	<title>IHUB Talent</title>
+   	<script type="text/javascript">
+   		function f1()
+   		{
+   			var password=document.getElementById('t1').value;
+
+   			if(password=="")
+   			{
+   				alert("password is Mandatory");
+   				document.getElementById('t1').focus();
+   				return false;
+   			}
+   			if(password.length<5)
+   			{
+   				alert("Password must have five characters");
+   				document.getElementById('t1').focus();
+   				return false;
+   			}
+   		 return true;		
+   		}
+   	</script>
+  </head> 
+  <body> 
+ 			<form onsubmit="f1()">
+ 			Password: <input type="password" id="t1"/> <br>
+ 			<input type="submit" value="submit"/>
+ 			</form>
+ 		
+  </body> 
+</html> 

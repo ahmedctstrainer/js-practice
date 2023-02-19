@@ -1,0 +1,20 @@
+
+<html>
+<head>
+<script>
+var promise = new Promise(function(resolve, reject) {
+var name="aziz1";
+    if(name=="aziz")
+	resolve('ITHub Talent');
+    else
+    reject("reject");
+})
+// replace resolve and reject
+promise.then(function(successMessage) { console.log(successMessage);}
+    ,  function(errorMessage) {console.error(errorMessage);}
+    )
+
+
+</script>
+</head>
+</html>

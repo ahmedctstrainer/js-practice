@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>IHUB Talent</title>
+	</head>
+	<body>
+		<h2>Click Here </h2>
+        <h2>Click Here2 </h2>
+
+<!--
+        x[1].onclick=function(){
+            alert("You click second div");
+         }
+
+         <button onclick="f1()">Click2</button>
+       -->
+
+
+		<!-- result here -->
+		<p id="result"> </p>
+
+		<script type="text/javascript">
+
+			/*document.addEventListener("click",function(){
+				document.getElementById('result').innerHTML="Thanks for click";	
+                alert("Welcome back");
+			})*/
+
+            function clickMe(){
+				document.getElementById('result').innerHTML="Thanks for clickiing  second h2";	
+                alert("Welcome back");
+			}
+
+          var x=document.getElementsByTagName('h2');
+          x[0].addEventListener("mouseleave",function(){
+				document.getElementById('result').innerHTML="Thanks for clickiing h2";	
+                alert("Welcome back");
+			})
+
+
+            x[1].addEventListener("click",clickMe)
+
+
+		</script>
+
+	</body>
+</html>

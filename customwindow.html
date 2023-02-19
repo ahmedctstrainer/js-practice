@@ -1,0 +1,28 @@
+<html>
+	<head>
+		<title>IHUB Talent</title>
+	</head>
+	<body>
+			<script type="text/javascript">
+				var myWindow;
+				function openWindow()
+				{
+					 myWindow=window.open("","","width=250px,height=250px");	
+				}
+				function moveWindowBy()
+				{
+					myWindow.moveBy(500,500);
+				}
+				function moveWindowTo()
+				{
+					myWindow.moveTo(500,500);
+				}
+				
+			</script>
+
+			<button onclick="openWindow()">open a new window</button>
+			<button onclick="moveWindowTo()">move window to</button>
+            <button onclick="moveWindowBy()">move window</button>
+            
+	</body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>IHUB Talent</title>
+	</head>
+	<body>
+		
+        
+        
+        <div>This is Div1</div>
+		<div>This is Div2</div>
+		<div>This is Div3</div>	
+		
+        <button>Click1</button>
+        <button onclick="f1()">Click2</button>
+        <button onclick="f1()">Click3</button>
+        <button onclick="f1()">Click4</button>
+
+       
+        
+		
+		<script type="text/javascript">
+			function f1()
+			{
+                var x=document.getElementsByTagName('button');
+                x[0].onclick=function(){
+                    alert("You clicked click1 ");
+                }
+
+
+			var x=document.getElementsByTagName('div');
+
+			console.log(x.length);
+            console.log(x[0]);
+            console.log(x[0].innerHTML);
+             x[0].innerHTML='I am from india'
+             x[0].style.backgroundColor='green'
+             x[0].style.color='black'
+             x[0].onclick=function(){
+                alert("You click first div");
+             }
+             
+
+             x[1].innerHTML='I am from USA'
+             x[1].style.backgroundColor='red'
+             x[1].style.color='black'
+             x[1].onclick=function(){
+                alert("You click second div");
+             }
+            
+             
+             x[2].innerHTML='I am from UK'
+             x[2].style.backgroundColor='blue'
+             x[2].style.color='black'
+             x[2].onclick=function(){
+                alert("You click third div");
+             }
+            
+
+
+
+
+
+             
+
+
+
+			}	
+		</script>
+	</body>
+</html>

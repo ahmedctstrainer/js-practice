@@ -1,0 +1,37 @@
+
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>CareerXTalent</title>
+	</head>
+<body>
+	<script type="text/javascript">
+		var flag=true;
+		function f1()
+		{
+			var cform="Name:<input type='text'/><br>Email:<input type='text'/><br><textarea placeholder='comment here' rows='8' cols='24'></textarea ><br><input type='submit' value='post'/>";
+
+			if(flag)
+			{
+				document.getElementById('result').innerHTML=cform;	
+				flag=false;
+			}
+			else
+			{
+				document.getElementById('result').innerHTML="";
+				flag=true;
+			}
+		}
+
+	</script>
+
+	<!-- button -->
+	<button onclick="f1()">Feedback</button>
+	<br><br>
+
+	<!-- result here -->
+	<span id="result"></span>
+
+</body>
+</html>

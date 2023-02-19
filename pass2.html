@@ -1,0 +1,48 @@
+
+
+<!doctype html> 
+<html> 
+  <head> 
+   	<title>IHUB Talent</title>
+   	<script type="text/javascript">
+   		function f1()
+   		{
+   			var password=document.getElementById('t1').value;
+   			var cpassword=document.getElementById('t2').value;	
+               var age=document.getElementById('t3').value;	
+               if(age>=18){
+				
+
+               }else{
+                alert("Age should be >=18");
+
+               }
+            
+   			
+   			if(password!=cpassword)
+   			{
+				alert("Both must be same");
+				return false;		
+   			}
+   			else
+   			{
+   				return true;
+   			}
+   		}
+   	</script>
+  </head> 
+  <body> 
+ 			<form onsubmit="f1()">
+ 			Password: <input type="password" id="t1"/> <br>
+ 			Confirm Password: <input type="password" id="t2"  pattern="" /> <br>
+             Email: <input type="email" id="t3"/> <br>
+ 			
+
+             Age: <input type="number" id="t3"/> <br>
+ 			
+
+ 			<input type="submit" value="submit"/>
+ 			</form>
+ 		
+  </body> 
+</html> 

@@ -1,0 +1,73 @@
+
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>CareerXTalent</title>
+	</head>
+<body>
+	
+	<table align="center">
+			<tr>
+				<td>No:</td>
+				<td><input type="text" id="t1"/></td>
+			</tr>
+			<tr>
+				<td>Name:</td>
+				<td><input type="text" id="t2"/></td>
+			</tr>
+			<tr>
+				<td>Address:</td>
+				<td><input type="text" id="t3"/></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><button onclick="f1()">ADD</button></td>
+			</tr>
+	</table>
+
+	<hr/>
+
+	<!-- table to add the textfield data -->
+	<table id="table" border="1" width="100%" cellpadding="10px">
+		<tr bgcolor="cyan">
+			<th>SNO</th>
+			<th>SNAME</th>
+			<th>SADD</th>
+		</tr>
+	</table>
+
+	<script type="text/javascript">
+		function f1()
+		{
+			var table=document.getElementById('table');
+
+			//reading all the values from textfield
+			var no=document.getElementById('t1').value;
+			var name=document.getElementById('t2').value;
+			var add=document.getElementById('t3').value;
+             
+            // create row 
+			var row=table.insertRow();
+            // create columns in rows
+			var cell1=row.insertCell();
+			var cell2=row.insertCell();
+			var cell3=row.insertCell();
+
+
+			//insert data into cells
+			cell1.innerHTML=no;
+			cell2.innerHTML=name;
+			cell3.innerHTML=add;
+
+
+			//make textfields empty
+			document.getElementById('t1').value="";
+			document.getElementById('t2').value="";
+			document.getElementById('t3').value="";
+					
+
+		}
+	</script>
+</body>
+</html>

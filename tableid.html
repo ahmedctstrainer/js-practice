@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>IHUB Talent</title>
+	</head>
+	<body>
+			<table align="center">
+				<tr>
+					<td><input type="text" id="t1"/></td>
+				</tr>
+				<tr>
+					<td><input type="text" id="t2"/></td>
+				</tr>
+				<tr>
+					<td><input type="text" id="t3"/></td>
+				</tr>
+			</table>
+			<hr style="color:blue;"/>
+
+			<table id="table" border="1" width="100%">
+				<tr style="background-color: rgb(81, 87, 87);">
+					<th>STUD_NO</th>
+					<th>STUD_NAME</th>
+					<th>STUD_ADD</th>
+				</tr>
+				<tr>
+					<td>101</td>
+					<td>Alan</td>
+					<td>USA</td>
+				</tr>
+				<tr>
+					<td>102</td>
+					<td>Jose</td>
+					<td>UK</td>
+				</tr>
+				<tr>
+					<td>103</td>
+					<td>Nelson</td>
+					<td>UAE</td>
+				</tr>
+				<tr>
+					<td>104</td>
+					<td>Kelvin</td>
+					<td>AUS</td>
+				</tr>
+			</table>
+
+			<script type="text/javascript">
+
+
+
+
+
+
+			var table=document.getElementById('table');
+
+            for(var i=1;i<table.rows.length;i++)     
+			{
+				//any row is click 
+               // console.log(	table.columns[i]);
+        
+                console.log(	table.rows[i]);
+            console.log(table.rows[i].cells[0].innerHTML)
+            console.log(table.rows[i].cells[1].innerHTML)
+            console.log(table.rows[i].cells[2].innerHTML)
+           
+
+            if(i==1){
+            table.rows[i].cells[0].innerHTML='Ahmed'
+            table.rows[i].cells[1].innerHTML='1023'
+            table.rows[i].cells[2].innerHTML='9133'
+            }
+            if(i==2){
+            table.rows[i].cells[0].innerHTML='aziz'
+            table.rows[i].cells[1].innerHTML='1024'
+            table.rows[i].cells[2].innerHTML='9122'
+            }
+            
+      		}
+
+
+            for(var i=1;i<table.rows.length;i++)     4
+			{
+				//any row is click 
+				table.rows[i].onclick= function()
+				{
+				//dispaly the data in a textfield
+	document.getElementById("t1").value=this.cells[0].innerHTML;	
+	document.getElementById("t2").value=this.cells[1].innerHTML;
+	document.getElementById("t3").value=this.cells[2].innerHTML;				
+				}
+			}
+
+
+
+
+			</script>
+
+	</body>
+</html>
+
+

@@ -1,0 +1,128 @@
+
+
+
+<html>
+<head>
+
+
+    <script>
+        class Student{//open class
+
+            name;
+            address;
+            email;
+          
+      setName(name){
+        this.name=name
+      }
+      getName(){
+        return this.name;
+      }
+
+      setAddress(address){
+        this.address=address
+      }
+      getAddress(){
+        return this.address;
+      }
+
+      setEmail(email){
+        this.email=email
+      }
+      getEmail(){
+        return this.email;
+      }
+
+
+         print(){
+
+console.log("Name "+this.name);
+console.log("Adress "+this.address);
+console.log("Email "+this.email);
+         }
+
+constructor(name,address,email){
+    this.name=name
+    this.address=address
+    this.email=email
+
+    alert("object creation");
+}
+}// close class
+
+
+class CollegeStudent extends Student{
+
+isOwnCar;
+isOwnBike;
+isOwnLicense;
+print(){
+    super.print();
+
+    
+//console.log("Name "+this.name);
+//console.log("Adress "+this.address);
+//console.log("Email "+this.email);
+    
+console.log(`College student has Car ${this.isOwnCar} `);
+console.log(`College student has Bike ${this.isOwnBike} `);
+console.log(`College student has License ${this.isOwnLicense} `);
+}
+
+constructor(isOwnCar,isOwnBike,isOwnLicense){
+    super('Rakesh','THub@gmail','Hyd Sec-bad');
+this.isOwnBike=isOwnBike;
+this.isOwnCar=isOwnCar;
+this.isOwnLicense=isOwnLicense;
+
+}
+
+
+}
+
+
+
+       
+        var s=new Student("AzizAhmed",'Ahmed@gmail.com','Telanagana hyderabad');//create object
+        s.print();
+
+        var john=new CollegeStudent('Yes','No','Yes');//variable student +college student
+        john.print();// from College student
+
+     console.log(s);
+     console.log(john);
+     
+
+
+        // calling student variable and functions Student
+    /*  john.setName('John');
+        john.setEmail('john@gmail.com');
+        john.setAddress('Delhi NCR');
+
+        john.print();// from College student
+
+        // access super class variable as sub class part
+        console.log(john.name)
+        console.log(john.address)
+        console.log(john.email);
+
+// access the sub class variables
+        console.log(john.isOwnBike)
+        console.log(john.isOwnCar)
+        console.log(john.isOwnLicense)
+
+*/
+        
+
+
+
+
+        
+
+
+
+        </script>
+        
+        
+        </head>
+</html>

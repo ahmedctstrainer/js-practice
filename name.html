@@ -1,0 +1,36 @@
+
+
+<!doctype html> 
+<html> 
+  <head> 
+   	<title>IHUB Talent</title>
+   	<script type="text/javascript">
+   		function f1()
+   		{
+   			var name=document.getElementById('t1').value;
+            var flag=true;
+   			if(name=="")
+   			{
+   				alert("Name is Mandatory");
+   				document.getElementById('t1').focus();
+   				 flag=false;
+   			}
+   		 return flag;		
+   		}
+   	</script>
+  </head> 
+  <body> 
+ 			<form onsubmit="" action="www.google.com">
+ 			Name: <input type="text" id="t1" required="required" /> <br>
+
+             Pasword: <input type="password" id="t2"  pattern="[a-z]{5}" required="required"/> <br>
+
+
+
+ 			<input type="submit" value="submit"/>
+ 			</form>
+ 		
+  </body> 
+</html> 
+
+

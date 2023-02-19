@@ -1,0 +1,126 @@
+
+
+
+<html>
+<head>
+
+
+    <script>
+
+class Student{//open class
+
+name;
+address;
+email;
+
+setName(name){
+this.name=name
+}
+getName(){
+return this.name;
+}
+
+setAddress(address){
+this.address=address
+}
+getAddress(){
+return this.address;
+}
+setEmail(email){
+this.email=email
+}
+getEmail(){
+return this.email;
+}
+print(){
+
+console.log("Name "+this.name);
+console.log("Adress "+this.address);
+console.log("Email "+this.email);
+}
+
+constructor(name,address,email){
+this.name=name
+this.address=address
+this.email=email
+
+alert("object creation");
+}
+}// close class
+
+      
+class CollegeStudent extends Student {
+
+
+
+isOwnCar;
+isOwnBike;
+isOwnLicense;
+/*name;
+//address;
+//email;
+
+setName(name){
+this.name=name
+}
+getName(){
+return this.name;
+}
+
+setAddress(address){
+this.address=address
+}
+getAddress(){
+return this.address;
+}
+setEmail(email){
+this.email=email
+}
+getEmail(){
+return this.email;
+}
+print1(){
+
+console.log("Name "+this.name);
+console.log("Adress "+this.address);
+console.log("Email "+this.email);
+}
+*/
+
+print2(){
+    
+    
+console.log(`College student has Car ${this.isOwnCar} `);
+console.log(`College student has Bike ${this.isOwnBike} `);
+console.log(`College student has License ${this.isOwnLicense} `);
+}
+
+constructor(isOwnCar,isOwnBike,isOwnLicense){
+this.isOwnBike=isOwnBike;
+this.isOwnCar=isOwnCar;
+this.isOwnLicense=isOwnLicense;
+
+}
+
+
+}
+
+
+        var john=new CollegeStudent('Yes','No','Yes');//variable student +college student
+        john.print();// from College student
+
+        var raju=new Student("name","address","email");
+        
+
+
+
+
+        
+
+
+
+        </script>
+        
+        
+        </head>
+</html>

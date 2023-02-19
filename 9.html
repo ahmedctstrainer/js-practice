@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>IHUB Talent</title>
+	</head>
+	<body>
+		<script type="text/javascript">
+
+				//1. global variable
+
+                var j=10;
+				function f1()
+				{
+					//2. global variable
+					window.i=10;
+					document.writeln(i+""+" f1() <br>");
+				}
+				function f2()
+				{
+					document.writeln(i+""+" f2()<br>");
+				}
+
+				//call
+				f1();
+				f2();
+
+		</script>
+	</body>
+</html>

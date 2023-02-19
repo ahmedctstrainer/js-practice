@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>IHUB Talent</title>
+	</head>
+	<body>
+			<strong>Done with All Courses?</strong>
+			<br><br>
+			<button onclick="f1()">Select All</button>	
+            <button onclick="f2()">submit</button>	
+            
+			<br><br>
+			<!-- check boxes -->
+			<input type="checkbox" name="c1" value="html"/>HTML	<br>
+			<input type="checkbox" name="c1" value="css"/>CSS   <br>
+			<input type="checkbox" name="c1" value="js"/>JAVASCRIPT
+			<br>
+			<input type="checkbox" name="c1" value="bootstrap"/>BOOTSTRAP <br>
+	
+			<script type="text/javascript">
+				function f1()
+				{
+					var x=document.getElementsByName('c1');
+                    	console.log(x)
+					
+                    
+                    for(var i=0;i<x.length;i++)
+					{
+						//condition to check it is checkbox or not
+						if(x[i].type=="checkbox")
+						{
+                            // make check box checked
+							x[i].checked=true;
+						console.log(x[i].value);
+                        }
+
+					}
+				}
+
+                function f2()
+				{
+					var x=document.getElementsByName('c1');
+                    	console.log(x)
+					
+                    
+                    for(var i=0;i<x.length;i++)
+					{
+						//condition to check is selected?
+						if(x[i].checked==true)
+						{
+						//	x[i].checked=true;
+						console.log("selected "+x[i].value);
+                        }else{
+
+                            console.log("Not selected "+x[i].value);
+                    
+                        }
+
+
+
+					}
+				}
+
+
+
+
+
+			</script>	
+	</body>
+</html>

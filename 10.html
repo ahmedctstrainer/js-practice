@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>IHUB Talent</title>
+
+        <script type="text/javascript" >
+          
+          function print(){   //open function
+
+           var aadhaarNo=1234567890;  //number variables
+           document.write("The aadhaar Number is "+aadhaarNo+"<br>");
+           var salary=121356.67;
+           document.write("Candidiate Salary "+salary+"<br>");
+         
+
+
+
+           var isMarried=false;//boolean variable
+           var age=20;
+            isMarried=(age>=21);
+             
+            var isInsuranceAvailable= (aadhaarNo!=0 && aadhaarNo!=undefined && aadhaarNo!=null && isMarried)?5000000:25000;
+            document.write("Candidiate isInsuranceAvailable ? "+isInsuranceAvailable+"<br>");
+           
+
+           var canVote=(age>=18);//18 19 20 
+           var inIndiaVote=  (aadhaarNo!=0 && aadhaarNo!=undefined && aadhaarNo!=null && isMarried );
+           var inAusVote=  (aadhaarNo!=0 && aadhaarNo!=undefined && aadhaarNo!=null && canVote );
+           var inBangVote=  ((aadhaarNo!=0 && aadhaarNo!=undefined && aadhaarNo!=null) || canVote );
+
+           if(inIndiaVote){
+            document.write("Candidiate can vote in india and Eligible for 5lakh loan <br>");
+            document.write("Candidiate can vote in india and Eligible for 5lakh loan <br>");
+           }
+           else{
+            document.write("Candidiate cannot vote in india and Eligible for 2lakh loan <br>");
+           }
+
+
+
+           var temp=!canVote;
+           document.write("Candidiate voting registered ? "+temp+"<br>");
+           
+           
+
+           document.write("Candidiate voting in Australia eligible ? "+inAusVote+"<br>");
+           document.write("Candidiate voting in india eligible ? "+inIndiaVote+"<br>");
+           
+
+
+           document.write("Candidiate is married ? "+isMarried+"<br>");
+           document.write("Candidiate can vote ? "+canVote+"<br>");
+
+           var candidiateName="Raju Kumar R" //string variable
+           document.write("Candidiate Name is  "+candidiateName+"<br>");
+           var country='India'   
+           document.write("Candidiate  is  from  "+country+"<br>");
+           var hasPassport;// undefined variable
+           document.write("Candidiate  has possport  "+hasPassport+"<br>");
+           var hasChildren=null; // null variable
+           document.write("Candidiate  has children  "+hasChildren+"<br>");
+
+
+           
+           //primitive arry
+           var arr=[1,2,3,4,5,6,7,8];
+
+
+
+           // regex
+           var pattern=/^[0-9][a-z]$/;
+
+           
+           
+
+
+          }   // close the function
+
+            print();// calling or invoking the function
+
+
+           
+
+                    </script>
+                    
+	</head>
+	<body>
+       
+		<button onclick="print();">Genrate form</button>
+		
+	</body>
+</html>

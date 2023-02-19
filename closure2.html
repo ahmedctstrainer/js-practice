@@ -1,0 +1,42 @@
+
+
+<!doctype html> 
+<html> 
+  <head> 
+   	<title>IHUB Talent</title>
+  </head> 
+  <body> 
+ 
+ 		<h3>JavaScript Closures</h3>	
+
+ 		<button onclick="myFunction()">count</button> <br>
+
+ 		<!-- result here -->
+ 		<span id="result">0</span>
+
+  		 <script type="text/javascript">
+ 				
+  		 		var add= (function(){
+                    console.log('function start')
+  		 			var count=0;
+                       console.log('function count declared')
+  		 			
+  		 			return function(){  console.log('inner '); count+=1; return count};
+  		 		}) ();// declaration calling same line
+
+                console.log(add)// returns function   function(){  console.log('inner '); count+=1; return count}
+
+               /* var add1=function(){
+  		 			var count=0;
+                    count+=1;
+  		 			return count;
+                }*/
+
+ 				function myFunction()
+ 				{
+ 				document.getElementById('result').innerHTML=add();// call the returnded function
+ 				}
+
+  		 </script>
+  </body> 
+</html> 

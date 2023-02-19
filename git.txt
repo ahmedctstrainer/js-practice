@@ -1,0 +1,195 @@
+SCM
+====
+SCM stands for Source Code Management.
+
+It is storage for developers, testing team, QA team and devops 
+team where we can insert, update and delete the source code.
+
+It is pipeline between on-shore and off-shore  team.
+
+It track the changes.
+
+It allow multiple teams from various department to add source 
+code parallely.
+
+
+SCM Tools
+===========
+GIT (it is a advanced tool) 
+SVN
+Perforce
+Clearcase
+
+
+GIT
+=======
+GitHub is a code hosting platform for collaboration and version control system like GIT.
+
+Git is a distributed version-control system for tracking changes in source code during software development.
+
+GIT is opensource and  developed by Junio Hamano in 2005.
+
+It is specially designed  for coordinating work among progammers.
+
+The main objective of GIT is to include speed,data intigrity ,
+support of distributed and etc.
+
+Git has a centeralized server and repository.
+
+Git braches are easier to work and all the branches attached to main branch.
+
+Diagram: git
+
+
+
+Steps to push the project into a GIT/GITHUB 
+=============================================
+step1:
+-----
+	create an Account in GitHub.
+	ex:
+	www.github.com
+
+step2:
+-----
+	Login in GitHub Account.	
+	ex:
+	https://github.com/login
+	
+	username or email: AzizulHasan
+	password : XXXXXX
+
+step3:
+-----
+	Install the GIT from below link.
+	ex:
+	https://git-scm.com/downloads
+
+step4:
+------
+	create a new project in Github.
+	ex:
+	click to start project-->repository name : IH-REACT-008-->
+	create repository. 
+	(https://github.com/AzizulHasan/IH-REACT-008).
+
+step5:
+---------
+	Create a  "Demo" folder or directory on desktop.
+
+step6:
+-------
+	Open a git bash prompt from "Demo"  folder.
+	ex:
+	right click inside "Demo" folder--> Git Bash Here.
+
+step7:
+------
+	Initialized empty Git repository.
+	ex:
+	bash/demo> git init
+
+step8:
+-------
+	Move from master branch to main brance in git bash.
+	ex:
+		bash/demo> git branch --move master main 
+
+
+step9:
+----
+	To check the status in git.
+	ex:
+		bash/demo> git status
+step9:
+-------
+	Add the files to staging area.
+	ex:
+		bash/demo> git add .
+		
+step10:
+----
+	Again check the status in git.
+	ex:
+		bash/demo> git status
+
+step11:
+--------
+	Add remote origin to main branch.
+	ex:
+		bash/demo>git remote add origin https://github.com/AzizulHasan/IH-REACT-008
+
+step12:
+--------
+	Check the remote origin using below command.
+	ex:
+		bash/demo> git remote -v
+
+step13:
+--------
+	Set authentication username and password.
+
+bash/demo> git config --global user.email ulhasan7867@gmail.com
+bash/demo> git config --global user.name AzizulHasan
+
+
+step14:
+------
+	commit the the changes.
+	ex:
+		bash/demo> git commit -m "my first commit"
+
+step15
+-------
+	push the project to central repository
+	ex:
+		bash/demo> git push origin main	
+		or
+		bash/demo> git push -f origin main
+
+step14:
+--------
+	Goto github reposority and represent the web page.
+
+	ex:
+		https://github.com/AzizulHasan/IH-REACT-008
+
+
+Steps to clone the project from Central Repository
+====================================================
+
+step1: 
+-----
+	Create a "practice" folder on a Desktop.
+
+step2:
+------
+	Open a git bash from "practice" folder.
+	ex:
+	right click inside practice folder --> git bash here .
+
+step3:
+------
+	Initialize the empty git repository.
+	ex:
+		bash/practice> git init
+
+step4:
+-------
+	Now clone the project.
+	ex:
+	bash/practice> git clone https://github.com/AzizulHasan/IH-REACT-008.git
+
+
+
+
+
+
+
+
+
+
+
+
+
+

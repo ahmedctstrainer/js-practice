@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html>
+        <head>
+         	<title>IHUB Talent</title>
+        </head>
+        <body>
+        	<script type="text/javascript">
+        		function f1()
+        		{
+        		var city=document.getElementById('city');
+                console.log(city.selectedIndex);
+                console.log(city.options[0].innerHTML);
+                console.log(city.options[1].innerHTML);
+                console.log(city.options[2].innerHTML);
+                console.log(city.options[3].innerHTML);
+                
+                //get selected values
+        		document.getElementById('result').innerHTML=city.options[city.selectedIndex].text;
+        		}
+        	</script>
+
+        	Enter the City:
+        	<select id="city" onchange="f1()">
+        		<option>Hyderabad</option>
+        		<option>Chennai</option>
+        		<option>Mumbai</option>
+        		<option>Karnataka</option>
+        		<option>Delhi</option>
+        	</select>
+        	<br><br>	
+        	<!-- result here -->
+        	Your City is :<span id="result"></span>
+        </body>
+</html>
+

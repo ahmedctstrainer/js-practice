@@ -1,0 +1,34 @@
+
+
+<!doctype html> 
+<html> 
+  <head> 
+   	<title>IHUB Talent</title>
+  </head> 
+  <body> 
+ 
+  		 <script type="text/javascript">
+ 				//lexical scope 
+ 				var a=10;
+ 				function x()
+ 				{
+
+ 					var b=20;
+ 					function y()
+ 					{
+ 						var c=30;
+ 						document.writeln(a+" "+b+" "+c);
+
+                        function z(){
+                            var w=10;
+                            console.log('Z ()');
+                        }
+                        z();
+ 					}
+ 					y();
+ 				}
+ 				x();
+
+  		 </script>
+  </body> 
+</html> 

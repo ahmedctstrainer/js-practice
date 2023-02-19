@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>IHUB Talent</title>
+</head>
+
+<body>
+    <script type="text/javascript">
+        var a = 10;
+        var b = 20;
+        if (a > b) {
+            document.writeln("a is greatest");
+        }
+        if (b > a) {
+            document.writeln("b is greatest");
+        }
+
+        if (a > b) {
+            document.writeln("a is greatest");
+        }
+        else {
+            document.writeln("b is greatest");
+        }
+
+
+        document.writeln("<br>");//
+
+        var option = 100;
+        if (option == 100)
+            document.writeln("It is Police Number");//
+        else if (option == 103)
+            document.writeln("It is Enquiry Number");//
+        else if (option == 108)
+            document.writeln("It is Emergency Number");//
+        else
+            document.writeln("Invalid Option");
+
+        document.writeln("<br>");//
+
+
+
+
+
+        var n = 7;
+
+        if (n % 2 == 0)
+            document.writeln("It is even number");
+        else
+            document.writeln("It is odd number");
+
+
+        var y = 2024;
+
+        if (y % 4 == 0)
+            document.writeln("It is a leap year");
+        else
+            document.writeln("It is not a leap year");
+
+
+
+        document.writeln("<br>");//
+
+
+
+        var ch = 'a';
+
+        if (ch == 'a')
+            document.writeln("It is vowel");
+        else if (ch == 'e')
+            document.writeln("It is vowel");
+        else if (ch == 'i')
+            document.writeln("It is vowel");
+        else if (ch == 'o')
+            document.writeln("It is vowel");
+        else if (ch == 'u')
+            document.writeln("It is vowel");
+        else
+            document.writeln("It is not vowel");
+
+
+        document.writeln(" <br  >out of else if ladder <br>");//
+
+
+
+        var ch = '+';
+
+        if (ch >= 'A' && ch <= 'Z')
+            document.writeln("It is upper case letter");
+        else if (ch >= 'a' && ch <= 'z')
+            document.writeln("It is lower case letter");
+        else if (ch >= '0' && ch <= '9')
+            document.writeln("It is digit");
+        else
+            document.writeln("It is special symbol");
+
+        document.writeln(" <br  >out of else if ladder <br>");//
+
+
+        var salary = 1100000;
+        var age = 59
+        var calculatedTax = 0;
+        var slab1, slab2, slab3;
+
+        var isNew = true;//new
+
+        if (isNew) {
+            document.writeln("New Regime Tax calculation<br>");
+            
+            if (salary >= 250001 && salary <= 500000) {
+                slab1 = (salary - 250000) * 0.05;
+                calculatedTax = slab1;
+                document.writeln("slab1 " + slab1);
+            }
+            if (salary >= 500001 && salary <= 1000000) {
+                slab2 = 12500 + (salary - 500000) * 0.20;
+                document.writeln("slab2 " + slab2);
+
+                calculatedTax = slab2;
+                document.writeln("calculated tax " + calculatedTax);
+
+            }
+            if (salary >= 1000001) {
+                slab3 = 112500 + ((salary - 1000000) * 0.30);
+                calculatedTax = slab3;
+                document.writeln("slab3 " + slab3);
+
+
+            }
+
+
+            document.writeln("calculated amount " + calculatedTax);
+
+
+
+
+        } else {
+            document.writeln("Old Regime Tax calculation");
+
+
+
+        }
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+</body>
+
+</html>

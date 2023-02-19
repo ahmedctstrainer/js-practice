@@ -1,0 +1,39 @@
+
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>CareerXTalent</title>
+	</head>
+<body>
+
+		<form onsubmit="return f1()" name="login" method="post" action="https://www.google.com">
+			Name: <input type="text" name="t1"/> <br>
+            Password: <input type="text" name="t2"/> <br>
+            
+			<input type="submit" value="submit"/>
+		</form>
+		
+		<script type="text/javascript">
+			function f1()
+			{
+                var flag;
+var name=document.login.t1.value;
+var pass=document.login.t2.value;
+
+console.log(name)
+console.log(pass)
+
+if(name==="admin" && pass==="admin"){
+    flag=true;
+   
+			}	else{
+                alert("Please enter correct details");
+                flag=false;
+            }
+
+return flag;
+        }
+		</script>
+</body>
+</html>

@@ -1,0 +1,89 @@
+<html>
+
+<head>
+<script>
+function readDiv(){
+var divObject= document.getElementById('id1');
+console.log(divObject);
+//divObject.style.display='block';
+if(divObject.style.display ==='none')
+{
+
+    divObject.style.display='block';
+}else{
+    divObject.style.display='none';
+
+}
+
+
+}
+
+function doAction(){
+
+   var username= document.getElementById("username");
+   console.log(username);
+   console.log(username.value);
+   
+   var password=document.getElementById("password").value;
+   console.log(password);
+
+   if(username.value==='admin'  && password==='admin'){
+    localStorage.setItem("username",username.value);
+   // localStorage.setItem("password",password);
+    
+   alert("Welcome Mr "+username.value);
+   }else{
+    alert("Please provide correct username and password");
+   }
+
+}
+
+function removeFromLocalStorage(){
+
+    localStorage.removeItem('abcdfghsadjsakd');
+    localStorage.clear();// all local stoage values to remove
+
+}
+
+
+function readLocalStorageItems(){
+
+var name=localStorage.getItem('username');
+
+alert('Name from localstorage is ' +name);
+}
+</script>
+
+</head>
+
+<body>
+
+<div  id="id1" style="display: none;"> I am from div
+    <form onsubmit=""  >
+        <input type="text" name="username" id="username">
+        <input type="password" name="password" id="password">
+        <input type="button" name="test" id="test" value="test" onclick="doAction();">
+        
+        <input type="submit" name="submit" value="Login" id="submit">
+        </form>
+        
+
+</div>
+<button onclick="readDiv();">Click me</button>
+<button onclick="readLocalStorageItems();">read from local storage</button>
+
+
+<button onclick="removeFromLocalStorage();">Remove from Local storage</button>
+
+<form onsubmit=""  >
+<input type="text" name="username" id="username">
+<input type="password" name="password" id="password">
+<input type="button" name="test" id="test" value="test" onclick="doAction();">
+
+<input type="submit" name="submit" value="Login" id="submit">
+</form>
+
+
+
+</body>
+</html>

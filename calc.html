@@ -1,0 +1,74 @@
+<html>
+	<head>
+		<title>IHUB Talent</title>
+		
+	</head>
+	<body>
+		
+			Enter A : <input type="number" id="t1"/> <br>	
+            Enter B : <input type="number" id="t2"/> <br>	
+            
+			<button id="io" onclick="f1()">+</button>
+			<button onclick="f2()">-</button>			<button onclick="f3()">*</button>
+			<button onclick="f4()">%</button>
+            <button onclick="f5()">/</button>
+            
+
+            <p id="print">result</p>
+            Result <input type="text" id="print1"/> <br>	
+          
+			
+	</body>
+    <script type="text/javascript">
+			
+        var a=document.getElementById('t1').value;
+        var b=document.getElementById('t2').value;
+        var avalue= parseInt(a);
+       var bvalue= parseInt(b);
+       
+        function f1()
+        {
+        
+        var c=avalue+bvalue
+        
+    //	document.writeln("Welcome Mr. "+name);
+         document.getElementById('print1').value='The result is on textfield is '+c;
+         document.getElementById('print').innerHTML='The result is on paragrapgh is '+c;
+      
+        }
+
+        function f2()
+        {
+        
+        var c=avalue-bvalue
+        
+    //	document.writeln("Welcome Mr. "+name);
+         document.getElementById('print').innerHTML='The result is '+c;
+        }
+        function f3()
+        {
+        
+        var c=avalue*bvalue
+        
+    //	document.writeln("Welcome Mr. "+name);
+         document.getElementById('print').innerHTML='The result is '+c;
+        }
+        function f4()
+        {
+        
+        var c=avalue%bvalue
+        
+    //	document.writeln("Welcome Mr. "+name);
+         document.getElementById('print').innerHTML='The result is '+c;
+        }
+        function f5()
+        {
+        
+        var c=avalue/bvalue
+        
+    //	document.writeln("Welcome Mr. "+name);
+         document.getElementById('print').innerHTML='The result is '+c;
+        }
+      </script>
+
+    </html>

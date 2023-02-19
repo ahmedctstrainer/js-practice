@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html>
+        <head>
+         	<title>IHUB Talent</title> 
+        </head>
+        <body>
+        <h2>Remove Event Handler  </h2>	
+
+        <button onclick="stopEvent()">stop event handler</button>
+
+        <div id="hovereffect">Move the cursor here </div>
+
+        <!-- result here -->
+        <span id="result"></span>
+
+        <script type="text/javascript">
+        	var y=document.getElementById("hovereffect");
+
+            var date=new Date();
+            console.log(date);
+
+        	
+        	y.addEventListener('mouseover',mouseOverFun);
+
+        	function mouseOverFun()
+        	{
+        		document.getElementById("result").innerHTML += 
+        		"mouse is over!" +date+ "<br>"; 	
+        	}
+        	function stopEvent()
+        	{
+        		y.removeEventListener('mouseover',mouseOverFun);
+        		document.getElementById("result").innerHTML += 
+        		"mouse event stop!" + "<br>";	
+        	}
+        </script>	
+
+
+        </body>
+</html>
+

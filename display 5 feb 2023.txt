@@ -1,0 +1,456 @@
+ 
+ 
+ I need to disable back and fwd button on my web page.
+ 
+ document.body	
+ 
+ anything on body----> body can have anything
+ 
+ go by name
+ go by id
+ 
+ 
+ Form data
+ 3 to 4 ways
+ 
+ 
+ id,name,array..
+ 
+.pdf--- adobe reader,pdf viewwer
+ .docx--MS docs
+ .txt---notepad,note++
+ 
+ 
+ 
+ 
+ 
+ ------------------------------------------
+ localstorage
+ sessionstorage
+ 
+ string to number conversion---> parseInt(str);
+                                 parseInt('10')----> 10
+								 parseFloat("10.6")----> 10.6
+								 
+	id----> document.getElementById();---> textfield --> read data from that on click event
+	
+	name--> element
+	
+	document.formname.textfiled_name.value
+	
+	
+	
+	var table=document.getElementById('table	');
+
+			for(var i=1;i<table.rows.length;i++)
+			{
+				//any row is click 
+				table.rows[i].onclick= function()
+				{
+				//dispaly the data in a textfield
+	document.getElementById("t1").value=this.cells[0].innerHTML;	
+	document.getElementById("t2").value=this.cells[1].innerHTML;
+	document.getElementById("t3").value=this.cells[2].innerHTML;				
+				}
+			}
+
+---------------------------------------------------------------
+
+read table to textfield
+
+
+
+---------------------------------------------------------------
+ID
+
+name
+
+tagname
+
+
+
+
+
+
+
+<div  id=""  name=""   >
+form----textfield---> id and name-----> unique
+
+
+document.getElementsByName();
+
+body.--> div ---array....document.getElementsByName('')[0];
+forms-------->  form array
+input------> input array
+button----->
+
+
+[1,2,3]
+
+
+
+
+
+Adding event with addEventListener();
+
+
+Google it How many ways to add an event in html and in javascript;
+
+
+
+
+
+Events  
+getElementById
+getElementsByName
+getElementByTagName
+document.addEventListener();
+
+
+    Enter rupees amount
+    check box----> US dollar
+	               Riyal
+				   Euros
+    Set result to another text field
+
+Take DOB  and DOD----> display the actual in years
+
+	
+	
+	a=a+b;
+	a+=b
+	                
+   
+
+
+
+
+
+10 feb 2023  1:00pm
+11 feb 2023  1:00pm
+
+1 day----> getTime()---millisec
+
+
+
+variable hoisting
+events--onkeyup onkeydown  onchnage  onselect onblur onmouseenter onmouseleave
+converters
+date time object-->getter methods setter methods
+Id,Name ,Tagname
+dynamic content
+innerHTML
+innerText
+addEventListener ---> input,click,mouseenter ,mouseleave...
+converters
+removeEventListener
+simple clock
+
+
+function test(){
+
+
+}
+
+test();
+
+var test=function(){}
+test();
+
+
+
+
+function(){
+  console.log('inner '); count+=1; 
+  return count
+  
+  }
+
+
+ function(){  console.log('inner '); count+=1; return count}();
+ add();
+
+
+
+I want to bussiness--->
+      X person---> he willl do it.
+	  
+	  required
+
+
+
+
+string-->
+date
+
+regex--->
+
+^ specifies a match at the start of a string.
+
+$ specifies a match at the end of a string.
+https://www.w3schools.com/jsref/jsref_obj_regexp.asp
+
+brackket----> [a-z]   [0-9]  [A-Z]  
+metachar
+quantifiers---+  +(aleast)--(1 or more)
+              *(zero or more)
+
+---------------------------
+
+[a-z]{5}---aleat 5 char
+[a-z]{5,10}--between 5 to 10 char
+[a-z]{5,}---> aleat 5 or more char
+
+
+[^a-z]{5}---> 5 non char
+
+\d---> [0-9]
+\s---> space
+
+^
+$
+
+/^A1$/
+
+--------------------
+
+regex=/ ^ $ .../
+
+
+
+
+	
+------------------------------------------
+
+
+     var namecheck=/[A-Za-z. ]{6,20}$/;
+    
+    var pwdcheck=/(?=.*[0-9])(?=.*[!@#$%^&*])(?=.*[A-Z])[a-zA-Z0-9!@#$%^&*]{10,30}$/;
+
+    var phonecheck=/[789][0-9]{9}$/;
+
+    var emailcheck=/[A-Za-z.]{1,}@[A-Za-z]{2,15}[.][A-Za-z]{3,}$/;
+
+
+
+
+
+
+
+
+
+
+synch----> request-----> response
+
+
+asynch
+
+
+
+
+
+Promise----> cannot be taken back---->
+
+Can be fullfilled----> broken
+
+true
+false
+
+
+
+function
+
+
+
+class PersonDetails{
+
+// varaible 
+
+//function
+
+}
+
+var obj=new PersonDetails();
+
+
+
+
+//camel casing--->
+class PersonDetails{
+//name of the person
+// name of variable and functions
+nameOfThePerson
+
+const PI=3.14;
+
+const NAME_OF_THE_PERSON='raju';
+
+}
+
+
+color--> white----add black
+color ---blue------> add black
+
+class function-----> object--
+inheriting Object class
+
+
+Object----> class
+
+
+
+get mwthod ---get value--have return
+set method---set value---have param
+
+name
+
+	  setName(name){
+			this.name=name
+		  }
+		  getName(){
+			return this.name;
+		  }
+
+
+tablet----> capsule---collection of 2 chemicals..
+
+ abstracting the chemicals
+ 
+ private,public ,protected ,default...
+ 
+ class 
+ object
+ encapsulation 
+ inheritance
+ 
+ 
+ 
+ Student{
+ 
+ name 
+ email
+ address
+ 
+ print(){
+ name 
+ email
+ address
+ }
+ }
+ 
+ CollegeStudent extends Student{
+ // already in student 
+ isOwnBike
+ isOwnCar
+ isLicenceAvailable
+ 
+ print(){
+ // done print of student class
+ bike
+ car
+ licence
+ }
+ 
+ }
+ 
+ 
+ 
+ var s=new Student();---> name address email
+ var c=new CollegeStudent();---> name addres email car bike nad licencee
+
+
+Super   Subclass-----> want to access from father---> super.variable  super.method  super()
+Father   Child class
+Main clas    derived 
+
+
+
+over riden method
+same method with diff body is available in super and sublclass
+
+
+
+
+
+
+
+
+Student---->name email  adress--> call print()
+
+
+College student---->
+
+ES6
+Destructurung
+loop
+TDZ
+arrow
+spread operator
+rest param
+collections in js
+
+---before nodejs--->
+
+mongodb----> js
+Nodejs
+express js
+react js
+
+
+
+
+
+
+
+    	
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

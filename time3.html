@@ -1,0 +1,59 @@
+
+
+<!DOCTYPE html>
+<html>
+        <head>
+         	<title>IHUB Talent</title>
+         	<style>
+         		body
+         		{
+         			height: 100vh;
+         			background: linear-gradient(#FFFF00,#FF0000);
+         			display: grid;
+         			justify-content: center;
+         			align-items: center;
+         		}
+         		span
+         		{
+         			border:2px solid #FFFFFF;
+         			padding:10px;
+         			border-radius: 15px;
+         			box-shadow: 2px 2px 14px 2px #FFFFFF;
+         		}
+         	</style> 
+        </head>
+        <body>
+        	<!-- result here -->
+        	<span id="result"></span>
+
+        	<script type="text/javascript">
+
+        		window.onload=function(){getTime();}
+
+        		function getTime()
+        		{
+        			var date=new Date();
+        			var h=date.getHours();
+        			var m=date.getMinutes();
+        			var s=date.getSeconds();
+
+        			m=checkTime(m);
+        			s=checkTime(s);
+
+        document.getElementById('result').innerHTML=h+":"+m+":"+s;
+        setInterval("getTime()",1000);
+        		}
+
+        		function checkTime(i)
+        		{
+        			if(i<10)
+        			{
+        				i= "0"+i;
+        			}	
+        			return i;
+        		}
+        	
+        	</script>
+        </body>
+</html>
+

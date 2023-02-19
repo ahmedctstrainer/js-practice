@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+        <head>
+         	<title>IHUB Talent</title>  
+         	<style type="text/css">
+         		
+         		div
+         		{
+         			background-color: yellow;
+         			padding:20px;
+         			position: absolute;
+         			top:150px;
+         			left:150px;
+         		}
+         		p
+         		{
+         			position: relative;
+         			top:100px;
+         			left:260px;
+         			font-weight: bold;
+         			letter-spacing: 2px;
+         		}
+
+         	</style>   
+        </head>
+        <body>
+       <p>Unit Converter</p>
+        <div>		
+        	<table>
+        		<tr>
+        			<td>Feet</td>
+        			<td>&nbsp;</td>
+        			<td>Inches</td>	
+        		</tr>
+        		<tr>
+        			<td><input type="text" id="feet"/></td>
+        			<td>=</td>
+        			<td><input type="text" id="inch"/></td>
+        		</tr>
+        	</table>
+        </div>
+
+        <script>
+        	var feet=document.getElementById("feet");
+        	var inch=document.getElementById("inch");
+
+        	feet.addEventListener('input',function(){
+
+        		var f=this.value;
+        		var i=f*12;
+        		inch.value=i;
+        	})	
+
+        	inch.addEventListener('input',function(){
+        		var i=this.value;
+        		var f=i/12;
+        		if(!Number.isInteger(f))
+        		{
+        			f=f.toFixed(2);	
+        		}
+        		feet.value=f;
+        	})
+        </script>
+
+        </body>
+</html>

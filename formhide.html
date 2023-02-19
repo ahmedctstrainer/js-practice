@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>IHUB Talent</title>
+	</head>
+	<body>
+		<fieldset  id="curr_id">
+			<legend>Current Address</legend>
+			<table align="center">
+				<tr>
+					<td><label>House No:</label></td>
+					<td><input type="text" id="t1"/></td>
+				</tr>
+				<tr>
+					<td><label>Street:</label></td>
+					<td><input type="text" id="t2"/></td>
+				</tr>
+				<tr>
+					<td><label>Locality:</label></td>
+					<td><input type="text" id="t3"/></td>
+				</tr>
+					<tr>
+					<td><label>City:</label></td>
+					<td><input type="text" id="t4"/></td>
+				</tr>
+			</table>
+		</fieldset>			
+
+		<br><br>	
+		<!-- create a  checkbox -->
+	<input type="checkbox" id="box" value="ok" onclick="f1()"/>
+	<b>Permanent Address same as Current Address?</b>	
+	
+	<br><br>
+	<fieldset id="per_id">
+			<legend>Permanent Address</legend>
+			<table align="center">
+				<tr>
+					<td><label>House No:</label></td>
+					<td><input type="text" id="t1"/></td>
+				</tr>
+				<tr>
+					<td><label>Street:</label></td>
+					<td><input type="text" id="t2"/></td>
+				</tr>
+				<tr>
+					<td><label>Locality:</label></td>
+					<td><input type="text" id="t3"/></td>
+				</tr>
+					<tr>
+					<td><label>City:</label></td>
+					<td><input type="text" id="t4"/></td>
+				</tr>
+			</table>
+		</fieldset>	
+
+		<script type="text/javascript">
+			
+		function f1()
+		{
+			if(document.getElementById('box').checked)
+			{
+			document.getElementById("per_id").style.display='none';	
+			}
+			else
+			{
+			document.getElementById("per_id").style.display='block';
+			}
+		}
+
+		</script>
+
+	</body>
+</html>
+

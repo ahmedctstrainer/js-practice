@@ -1,0 +1,100 @@
+
+
+
+<html>
+<head>
+
+
+    <script>
+        class Student{//open class
+
+            text=` My 
+            name 
+            is 
+            india
+            `;
+            name;
+            address;
+            email;
+             // functions 
+             //variables
+
+      setName(name){
+        this.name=name
+      }
+      getName(){
+        return this.name;
+      }
+
+      setAddress(address){
+        this.address=address
+      }
+      getAddress(){
+        return this.address;
+      }
+
+      setEmail(email){
+        this.email=email
+      }
+      getEmail(){
+        return this.email;
+      }
+
+
+         print(){
+
+console.log("Name "+this.name);
+console.log("Adress "+this.address);
+console.log("Email "+this.email);
+console.log(` Name is  ${this.name}   `);
+
+console.log(` text  is  ${this.text}   `);
+         }
+
+constructor(name,address,email){
+    this.name=name
+    this.address=address
+    this.email=email
+
+    alert("object creation");
+}
+}// close class
+
+       
+        var s=new Student("AzizAhmed",'Ahmed@gmail.com','Telanagana hyderabad');//create object
+        s.print();
+
+        // s.name="Ahmed Aziz";
+        s.setName("Ahmed Aziz");
+       // s.email="aziz@gmail.com";
+       s.setEmail("aziz@gmail.com");  
+       //s.address="Delhi NCR"
+       s.setAddress("Delhi NCR");
+       s.print();
+
+
+       var raju=new Student("Raju","Raju@gmail.com","Vishakhapatnam AP");
+       raju.print();
+
+       var ramu=new Student('ramu','ramu@gmail.com','Chennai TN');
+       ramu.print();
+
+
+       console.log(s.getName());
+       console.log(s.getEmail());
+       console.log(s.getAddress())
+       
+
+
+       
+      //  s.name="AzizAhmed";
+      //  s.email="Ahmed@gmail.com";
+      //  s.address="Telanagana hyderabad";
+      //  s.print();
+        
+
+        </script>
+        
+        
+        </head>
+</html>

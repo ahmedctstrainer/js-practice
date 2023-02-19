@@ -1,0 +1,53 @@
+<html>
+	<head>
+		<title>IHUB Talent</title>
+
+	</head>
+	<body>
+		<script type="text/javascript">
+               
+               a=10;
+               b=20;
+               document.writeln("a "+a+"<br>");
+
+            document.writeln("b "+b+"<br>");
+               
+         
+
+			function f1(number)//input
+			{
+				document.writeln("f1 called");
+                return number*number;//output
+			}
+
+			//call
+		var output=	f1(5);
+		document.writeln(output);
+        
+
+// no param but with return type
+        function print1()
+			{
+				return "Hello World o print1() without param";
+			}
+
+			// override the function with new function body
+            function print(a,b)
+			{
+               out=  print1();
+              document.writeln(out)
+               out2= f1(5);
+               document.writeln(out2)
+         
+				return "Hello World with print() param "+(a+b);
+			}
+     
+            output=print(10,20);
+            document.writeln(""+ output+"<br>");
+            
+
+
+
+		</script>
+	</body>
+</html>

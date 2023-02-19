@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        
+			<script type="text/javascript">
+             function f1(){
+             var target=document.getElementById("body");
+             target.bgColor='black';
+             //target.fontColor='green';
+             
+             var id1=document.getElementById('myId');
+             id1.innerHTML="Hello i am from india"
+             var id2=document.getElementById('myId1');
+             id2.innerHTML="Hello i am from india 2"
+             
+             var id3=document.getElementById('myId2');
+             id3.innerHTML="Hello i am from india 3"
+
+             var id4=document.getElementById('myId3');
+             id4.innerHTML="Hello i am from india 4"
+             
+                console.log(target)
+
+
+      console.log(document.body);
+
+             }
+             function doGreen(){
+
+                document.body.style.backgroundColor='green';
+              
+                
+                 }
+    </script>
+		<title>IHUB Talent</title>
+		<style>
+			div
+			{
+				width:150px;
+				height: 150px;
+				background-color: #FF0000;
+			}	
+		</style>
+	</head>
+	<body id="body" >
+
+			<div id="myId">Hello how re you</div>
+            <div id="myId1"></div>
+            <div id="myId2"></div>
+            <div id="myId3"></div>
+
+            <button onclick="f1();">Click me</button>
+            
+            <button onclick="doGreen();">make green Background</button>
+            
+	</body>
+</html>

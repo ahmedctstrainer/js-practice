@@ -1,0 +1,61 @@
+<script>
+               function emp(eid,ename,esal)// creating a class
+				{
+				// instance variable
+                    this.eid=eid
+					this.ename=ename
+					this.esal=esal;
+				}
+                
+
+
+                raju=new emp(123,"raju",12345.56);// creating an object
+               
+                document.write(raju.eid)
+                document.write(raju.ename)
+                document.write(raju.esal+"<br>");
+
+                ramu=new emp(1234,"ramu",123456.56);// creating an object
+               
+               document.write(ramu.eid)
+               document.write(ramu.ename)
+               document.write(ramu.esal)
+
+
+               document.write("<br>Before swap")
+             
+               
+
+               var a=10,b=20;
+               var temp=0;
+               document.write("Before swap a= "+a+"b= "+b+"<br>");
+
+               temp=a;//temp=10
+               a=b;//a=20
+               b=temp;//a=10
+
+               document.write("After swap a= "+a+"b= "+b+"<br>");
+               
+               document.write(ramu.esal)
+
+
+var arr=[1,2,3,4,5,6,7,8,9,0];
+arr=new Array(1,2,3,4,5,6,7,8,9,0);
+document.write("arr length "+arr.length+"<br>");
+
+arr=["Ahmed",12,1234567890,'Hyderabad','M',true];
+
+				var i;
+				for(i=0;i<arr.length;i++)
+				{
+					document.writeln(arr[i]+" ");		
+				}
+
+                for(i in arr)
+				{
+					document.writeln(arr[i]+"<br>");		
+				}
+				
+
+				
+</script>

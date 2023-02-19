@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>IHUB Talent</title>
+	</head>
+	<body>
+			<script type="text/javascript">
+ 
+                var time;
+				function setTimeOut()
+				{
+				time=	setTimeout(Anim,30000);//1  2  3  4
+                
+				}
+
+				function Anim()
+				{
+					alert("Yahoo! this is javascript");
+				}
+                
+                function removeTimeout(){
+                  
+                    clearTimeout(time);
+                    Anim();
+                  //  console.log(time);
+
+                }
+
+			</script>
+
+			<button onclick="setTimeOut()">click</button>
+			<button onclick="removeTimeout()">remove time out</button>
+			
+	</body>
+</html>
+
+

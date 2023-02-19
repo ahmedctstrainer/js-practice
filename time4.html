@@ -1,0 +1,40 @@
+
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>CareerXTalent</title>
+	</head>
+<body>
+		
+		<script type="text/javascript">
+
+			var intervalId;
+
+			function getTime()
+			{
+				var date=new Date();
+				var h=date.getHours();
+				var m=date.getMinutes();
+				var s=date.getSeconds();
+	document.getElementById('result').innerHTML=h+":"+m+":"+s;
+			}
+
+			function startTimer()
+			{
+				intervalId=setInterval("getTime()",1000);
+			}
+			function stopTimer()
+			{
+				clearInterval(intervalId);
+			}
+			
+		</script>
+
+		<button onclick="getTime()">Get Time</button>
+		<button onclick="startTimer()">start Timer</button>
+		<button onclick="stopTimer()">stop Timer</button>
+		<!-- result here -->
+		<h2 id="result"></h2>
+</body>
+</html>

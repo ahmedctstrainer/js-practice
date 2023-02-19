@@ -1,0 +1,47 @@
+
+
+
+<!doctype html> 
+<html> 
+  <head> 
+   	<title>IHUB Talent</title>
+
+   	<!-- fontawesome icon cdn link -->
+   	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+   	<style type="text/css">
+   		
+   		input
+   		{
+   			padding-left:5px;
+   			padding-right:40px;
+   		}
+   		#myId
+   		{
+   			position: relative;
+   			right:30px;
+   		}
+
+   	</style>
+
+  </head> 
+  <body> 
+  		 <input type="password" id="myInput"/>
+  		 <i class="fa fa-eye" id="myId" onclick="f1()"></i>
+
+  		 <script type="text/javascript">
+  		 	function f1()
+  		 	{
+  		 		var x=document.getElementById('myInput');
+  		 		if(x.type === "password")
+  		 		{
+  		 			x.type="text";
+  		 		}
+  		 		else
+  		 		{
+  		 			x.type="password";
+  		 		}
+  		 	}
+  		 </script>
+  </body> 
+</html> 

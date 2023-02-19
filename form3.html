@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<style>
+input[type=text],input[type=password], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  width:500px;
+  position: relative;
+  left:200px;
+  top:20px;
+}
+</style>
+
+<script type="text/javascript">
+  
+  function validate()
+  {
+    var name=document.getElementById('name').value;
+    var pwd=document.getElementById('pwd').value;
+    var phone=document.getElementById('phone').value;
+    var email=document.getElementById('email').value;
+    var country=document.getElementById('country');
+
+
+    var namecheck=/[A-Za-z. ]{6,20}$/;
+    
+    var pwdcheck=/(?=.*[0-9])(?=.*[!@#$%^&*])(?=.*[A-Z])[a-zA-Z0-9!@#$%^&*]{10,30}$/;
+
+    var phonecheck=/[789][0-9]{9}$/;
+
+    var emailcheck=/[A-Za-z.]{1,}@[A-Za-z]{2,15}[.][A-Za-z]{3,}$/;
+
+    if(   namecheck.test(name)){//true  if follow
+alert("Appreciated Name is entered correctly");
+
+    }else{
+        alert("UserName must be 6 characters");
+        document.getElementById('name').value="";
+        document.getElementById('name').focus();
+        return false;
+   
+    }
+
+
+    if(!(namecheck.test(name)))// if true if not follow  !true---false   !false--->true
+    {
+        alert("UserName must be 6 characters");
+        document.getElementById('name').value="";
+        document.getElementById('name').focus();
+        return false;
+    }
+
+    if(!(pwdcheck.test(pwd)))
+    {
+      alert("password must have 1 uppercase, 1 special symbol and 1 digit");
+      document.getElementById('pwd').value="";
+      document.getElementById('pwd').focus();
+       return false;
+    }
+
+    if(!(phonecheck.test(phone)))
+    {
+      alert("Phone must start with 7,8,9 series with  10 digits");
+      document.getElementById('phone').value="";
+      document.getElementById('phone').focus();
+       return false;
+    }
+
+    if(!(emailcheck.test(email)))
+    {
+      alert("Please insert valid email");
+      document.getElementById('email').value="";
+      document.getElementById('email').focus();
+       return false;
+    }
+
+    if(country.value=="")
+    {
+      alert("Please select the country option ");
+      return false;
+    }
+    return true;
+}
+
+</script>
+
+<body>
+
+
+<div>
+  <form action="/action_page.php" onsubmit="return validate()" method="post">
+
+    <label for="name">UserName</label>
+    <input type="text" id="name" name="name" placeholder="Your username.."/>
+
+    <label for="pwd">Password</label>
+    <input type="password" id="pwd" name="pwd" placeholder="Your password.."/>
+
+    <label for="phone">Phone</label>
+    <input type="text" id="phone" name="phone" placeholder="Your phone.."/>
+
+     <label for="email">Email</label>
+    <input type="text" id="email" name="email" placeholder="Your email.."/>
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="">none</option>
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+  
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+</body>
+</html>

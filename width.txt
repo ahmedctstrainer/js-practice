@@ -1,0 +1,17 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>IHUB Talent</title>
+	</head>
+	<body>
+			<script type="text/javascript">
+				var w=window.innerWidth;
+				var h=window.innerHeight;
+				document.writeln("Width :"+w+"<br>");
+				document.writeln("Height :"+h+"<br>");
+			</script>
+
+			
+	</body>
+</html>

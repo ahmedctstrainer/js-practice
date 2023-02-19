@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>IHUB Talent</title>
+		<style>
+			div
+			{
+				width:150px;
+				height: 150px;
+				background-color: #FF0000;
+			}	
+		</style>
+	</head>
+	<body>
+			<script type="text/javascript">
+					var a=0;
+					var id=setInterval(Anim,1000);
+
+					function Anim()
+					{
+						a = a + 10;
+						if(a==100)
+						{
+							clearInterval(id);
+						}
+
+						var target=document.getElementById("myId");
+						target.style.marginLeft= a + 'px';
+					}
+
+			</script>
+
+			<div id="myId"></div>
+	</body>
+</html>

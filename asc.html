@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>IHUB Talent</title>
+		<script type="text/javascript">
+				
+				
+
+			function ascendingOrder()
+			{
+					var arr=[2,3,1,5,4];
+					var i,j,temp;
+
+					//ascnding logic	
+					for(i=0;i<arr.length;i++)///2
+					{
+						for(j=0;j<arr.length;j++)///2  3
+						{
+								if(arr[i]<arr[j])
+								{
+									//swapping logic
+									temp=arr[i];
+									arr[i]=arr[j];
+									arr[j]=temp;
+								}
+						}
+					}
+
+					//display
+					for(i in arr)
+					{
+						document.writeln(arr[i]+" ");
+					}
+			}
+
+
+			ascendingOrder();
+			var str="This is IHUB Talent";//good
+
+			var str=new String("IHUB Talent");
+
+
+
+			
+	</script>
+
+	</head>
+	<body>
+			</body>
+
+
+			
+</html>

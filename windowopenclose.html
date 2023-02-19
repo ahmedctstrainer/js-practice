@@ -1,0 +1,23 @@
+<html>
+	<head>
+		<title>IHUB Talent</title>
+	</head>
+	<body>
+			<script type="text/javascript">
+				var myWindow;
+				function openWindow()
+				{
+					 myWindow=window.open("http://www.google.com","_blank","width=300px,height=300px");
+                     
+                   //  document.write(myWindow)
+				}
+				function closeWindow()
+				{
+					myWindow.close();
+				}
+			</script>
+
+			<button onclick="openWindow()">open a new window</button>
+			<button onclick="closeWindow()">close a window</button>
+	</body>
+</html>
